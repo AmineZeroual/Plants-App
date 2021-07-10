@@ -5,17 +5,19 @@ import 'package:flutter_app/View/HomePageBody.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'CostumNavigationBar.dart';
+
 class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
-      appBar:buildAppBar() ,
-      body:HomePageBody() ,
+      appBar: buildAppBar(),
+      body: HomePageBody(),
+      bottomNavigationBar: CostumBottomNavgBar(),
     );
   }
 
-  AppBar buildAppBar(){
+  AppBar buildAppBar() {
     return AppBar(
       elevation: 0,
       leading: IconButton(

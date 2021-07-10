@@ -10,3 +10,7 @@ const kBackgroundColor = Color(0xfff9f8fd);
 const double kDefaultPadding = 20.0;
 
 //Default Styles
+const kStyle1 =TextStyle(
+fontWeight: FontWeight.bold,
+fontSize: 18,
+);
